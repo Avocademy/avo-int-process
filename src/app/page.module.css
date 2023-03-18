@@ -1,1 +1,94 @@
-/* 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+.tab__frame{
+    display : flex;
+    width: 300px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.tab__frame p{
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.tab__bar{
+    display :flex;
+    background-color: #162833;
+    width: 100%;
+    height: 41px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.tab__bar p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.progress__bar{
+    margin-top: 1px;
+    width: 100%;
+    height : 8px;
+    background-color: #EFEFEF;
+}
+
+.progress__bar::-webkit-progress-bar {
+    background-color: #e0e0e0;
+  }
+  
+.progress__bar::-webkit-progress-value {
+    background-color: #FFCC33;
+  }
+
+.big__heading{
+    margin-top: 16px;
+    width: 269px;
+    height: 36px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+
+}
+
+.course__description{
+    margin-top: -10px;
+    width: 269px;
+    height: 84px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.time__required{
+    position: absolute;
+    color: #000000;
+    top: 363px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
